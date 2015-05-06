@@ -1,4 +1,4 @@
-library foo.ng_deps.dart;
+library bar.ng_deps.dart;
 
 import 'foo.dart';
 import 'package:angular2/src/core/annotations/annotations.dart';
@@ -8,9 +8,9 @@ void initReflector(reflector) {
   if (_visited) return;
   _visited = true;
   reflector
-    ..registerType(DependencyComponent, {
-      'factory': () => new DependencyComponent(),
+    ..registerType(FooComponent, {
+      'factory': () => new FooComponent(),
       'parameters': const [],
-      'annotations': const [const Component(selector: '[salad]')]
+      'annotations': const [const Component(selector: '[foo]')]
     });
 }
