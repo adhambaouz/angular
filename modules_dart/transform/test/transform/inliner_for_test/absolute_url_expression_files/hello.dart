@@ -9,5 +9,4 @@ import 'package:angular2/angular2.dart'
     styleUrls: const ['package:other_package/template.css'])
 class HelloCmp {}
 
-@Injectable()
-hello() {}
+@Injectable() hello() {}
