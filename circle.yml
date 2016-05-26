@@ -5,17 +5,7 @@ machine:
 dependencies:
   pre:
     - npm install -g npm
-  override:
-    - npm install:
-        environment:
-          # Token for tsd to increase github rate limit
-          # See https://github.com/DefinitelyTyped/tsd#tsdrc
-          # This is not hidden using https://circleci.com/docs/fork-pr-builds#details
-          # because those are not visible for pull requests, and those should also be reliable.
-          # This SSO token belongs to github account angular-github-ratelimit-token which has no access
-          # (password is in Valentine)
-          TSD_GITHUB_TOKEN: REDACTED_USE_PRIVATE_CONFIGURATION
 
 test:
   override:
-    - npm run build
+    - gulp lint
