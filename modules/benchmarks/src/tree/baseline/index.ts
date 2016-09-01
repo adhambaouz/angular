@@ -18,8 +18,8 @@ export function main() {
     bindAction('#destroyDom', destroyDom);
     bindAction('#createDom', createDom);
 
-    bindAction('#updateDomProfile', profile(createDom, noop, 'baseline-update'));
-    bindAction('#createDomProfile', profile(createDom, destroyDom, 'baseline-create'));
+    bindAction('#updateDomProfile', profile(createDom, noop, 'update'));
+    bindAction('#createDomProfile', profile(createDom, destroyDom, 'create'));
   }
 
   init();
