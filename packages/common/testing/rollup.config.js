@@ -7,7 +7,7 @@
  */
 
 export default {
-  entry: '../../../dist/packages-dist/common/testing/index.js',
+  entry: '../../../dist/packages-dist/common/@angular/common/testing.es5.js',
   dest: '../../../dist/packages-dist/common/bundles/common-testing.umd.js',
   format: 'umd',
   moduleName: 'ng.common.testing',
