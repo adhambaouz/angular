@@ -6,7 +6,7 @@
     "emitDecoratorMetadata": true,
     "module": "commonjs",
     "moduleResolution": "node",
-    "outDir": "../dist/all/",
+    "outDir": "../dist/all/@angular",
     "noImplicitAny": true,
     "noFallthroughCasesInSwitch": true,
     "paths": {
@@ -26,13 +26,6 @@
     "types": ["angularjs"]
   },
   "exclude": [
-    "angular1_router",
-    "benchmarks/e2e_test/old",
-    "benchmarks/src/old",
-    "benchmarks/src/**/index_aot.ts",
-    "benchmarks_external",
-    "payload_tests",
-    "rollup-test",
     "compiler-cli/integrationtest"
   ]
 }
