@@ -13,10 +13,10 @@ import * as core from '@angular/core/testing';
 import * as httpTesting from '@angular/http';
 import * as http from '@angular/http/testing';
 import * as platformBrowserTesting from '@angular/platform-browser';
-import * as platformBrowserDynmic from '@angular/platform-browser-dynamic';
+import * as platformBrowserDynamic from '@angular/platform-browser-dynamic';
 import * as platformBrowser from '@angular/platform-browser/testing';
-import * as platfomrServerTesting from '@angular/platform-server';
-import * as platfomrServer from '@angular/platform-server/testing';
+import * as platformServerTesting from '@angular/platform-server';
+import * as platformServer from '@angular/platform-server/testing';
 import * as routerTesting from '@angular/router';
 import * as router from '@angular/router/testing';
 import * as upgrade from '@angular/upgrade';
@@ -30,9 +30,9 @@ export default {
   httpTesting,
   platformBrowser,
   platformBrowserTesting,
-  platformBrowserDynmic,
-  platfomrServer,
-  platfomrServerTesting,
+  platformBrowserDynamic,
+  platformServer,
+  platformServerTesting,
   router,
   routerTesting,
   upgrade
