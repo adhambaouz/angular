@@ -7,6 +7,7 @@
  */
 
 import * as ts from 'typescript';
+
 import {ClassMemberKind, Import} from '../../../ngtsc/host';
 import {Esm5ReflectionHost} from '../../src/host/esm5_host';
 import {Fesm2015ReflectionHost} from '../../src/host/fesm2015_host';
