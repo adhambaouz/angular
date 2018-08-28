@@ -417,6 +417,9 @@
     "name": "createEmbeddedViewAndNode"
   },
   {
+    "name": "createEmptyStylingContext"
+  },
+  {
     "name": "createLContainer"
   },
   {
